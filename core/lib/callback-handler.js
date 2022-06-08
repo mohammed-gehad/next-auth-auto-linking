@@ -193,7 +193,6 @@ async function callbackHandler(params) {
               user,
             }));
       }
-      user = userByEmail;
 
       await linkAccount({ ...account, userId: user.id });
       await ((_events$linkAccount2 = events.linkAccount) === null ||
